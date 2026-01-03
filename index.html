@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>李劉家族 | 官方網站</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body { font-family: 'PingFang TC', 'Microsoft JhengHei', sans-serif; background-color: #f4f7f9; color: #333; }
+        .hero-section {
+            background: linear-gradient(rgba(44, 62, 80, 0.85), rgba(44, 62, 80, 0.85)), 
+                        url('https://images.unsplash.com/photo-1511895426328-dc8714191300?auto=format&fit=crop&w=1500&q=80');
+            background-size: cover; background-position: center;
+            color: white; padding: 100px 0; border-bottom: 5px solid #3498db;
+        }
+        .member-card {
+            border: none; border-radius: 15px; transition: all 0.3s ease;
+            box-shadow: 0 10px 20px rgba(0,0,0,0.05); background: white;
+        }
+        .member-card:hover { transform: translateY(-10px); box-shadow: 0 15px 30px rgba(0,0,0,0.1); }
+        .role-badge {
+            background-color: #e8f4fd; color: #2980b9;
+            padding: 5px 15px; border-radius: 20px; font-weight: bold; font-size: 0.85rem;
+        }
+        .footer { padding: 40px 0; color: #95a5a6; font-size: 0.9rem; }
+        .motto-box { border-left: 4px solid #3498db; padding-left: 20px; margin: 40px 0; }
+    </style>
+</head>
+<body>
+
+    <nav class="navbar navbar-light bg-white shadow-sm">
+        <div class="container justify-content-center">
+            <span class="navbar-brand mb-0 h1 fw-bold text-secondary" style="letter-spacing: 3px;">LI-LIU FAMILY</span>
+        </div>
+    </nav>
+
+    <header class="hero-section text-center">
+        <div class="container">
+            <h1 class="display-3 fw-bold mb-3">歡迎來到我們的家</h1>
+            <p class="lead mb-4">這是一個由 <strong>李偉任</strong> 先生與 <strong>劉雅菱</strong> 女士共同建立的幸福基地</p>
+            <div class="d-flex justify-content-center gap-3">
+                <span class="badge rounded-pill bg-light text-dark px-3 py-2">誠實</span>
+                <span class="badge rounded-pill bg-light text-dark px-3 py-2">互助</span>
+                <span class="badge rounded-pill bg-light text-dark px-3 py-2">感恩</span>
+            </div>
+        </div>
+    </header>
+
+    <main class="container" style="margin-top: -50px;">
+        <div class="row g-4 justify-content-center">
+            <div class="col-md-3">
+                <div class="member-card p-4 text-center">
+                    <div class="mb-3 role-badge">家族支柱</div>
+                    <h3 class="h4 mb-2">李偉任</h3>
+                    <p class="text-muted small">以智慧與耐心引領家庭，是我們最堅實的後盾。</p>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="member-card p-4 text-center">
+                    <div class="mb-3 role-badge">核心守護者</div>
+                    <h3 class="h4 mb-2">劉雅菱</h3>
+                    <p class="text-muted small">用溫柔打理家中一切，營造溫暖舒適的避風港。</p>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="member-card p-4 text-center">
+                    <div class="mb-3 role-badge">優秀長子</div>
+                    <h3 class="h4 mb-2">李愷唯</h3>
+                    <p class="text-muted small">不斷追求卓越的青年，是家中不可或缺的活力。</p>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="member-card p-4 text-center" style="border-bottom: 4px solid #3498db;">
+                    <div class="mb-3 role-badge">數位架構師</div>
+                    <h3 class="h4 mb-2">秉翰</h3>
+                    <p class="text-muted small">熱衷於科技開發，致力於為家族紀錄美好時光。</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="motto-box mx-auto" style="max-width: 700px; margin-top: 60px;">
+            <h5 class="text-secondary fw-bold">家族宣言</h5>
+            <p class="fst-italic text-muted">「家不是一個地方，而是一段共同成長的旅程。我們珍惜彼此的陪伴，在幽默與專業中實踐共同理念。」</p>
+        </div>
+    </main>
+
+    <footer class="footer text-center">
+        <div class="container">
+            <hr>
+            <p>&copy; 2026 Designed by Bing-Han Li. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
